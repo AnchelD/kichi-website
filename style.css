@@ -432,25 +432,25 @@ footer .wave {
 }
 
 footer .wave#wave1 {
-    z-index: 1000;
+    z-index: 998;
     opacity: 1;
     bottom: 0;
     animation: animateWave 4s linear infinite;
 }
 footer .wave#wave2 {
-    z-index: 999;
+    z-index: 997;
     opacity: 0.5;
     bottom: 10px;
     animation: animateWave_02 4s linear infinite;
 }
 footer .wave#wave3 {
-    z-index: 1000;
+    z-index: 998;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWave 3s linear infinite;
 }
 footer .wave#wave4 {
-    z-index: 999;
+    z-index: 997;
     opacity: 0.7;
     bottom: 20px;
     animation: animateWave_02 3s linear infinite;
@@ -576,14 +576,13 @@ footer .wave#wave4 {
 
 #contactu .pon-cont {
     width: 350px;
-    padding-right: 50px;
 }
 
 #contactu .pon-cont h2 {
     color: #2c234d;
     font-size: 30px;
     font-weight: 800px;
-    line-height: .8px;
+    line-height: 28px;
     margin-bottom: 16px;
 }
 
@@ -777,7 +776,7 @@ footer .wave#wave4 {
         right: -220px;
         width: 220px;
         height: 100vh;
-        background:#F5B195;
+        background:#c18989da;
         backdrop-filter: blur(4.5px);
         border: 1px solid rgba(255, 255, 255, 0.18);
         display: flex;
