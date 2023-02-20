@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <title>Kichimor</title>
+</head>
+<body>
+    
+
+    <!-- Navbar -->
+    <nav>
+        <a href="#home"><img src="/images/ssd.jpg" alt=""></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class='bx bx-collapse-horizontal'></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">Nosotros</a></li>
+                <li><a href="postres.html">Postres</a></li>
+                <li><a href="contact.html">Contáctanos</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="nosotros-home">
+
+        <h2>Nosotros</h2>
+        
+    </section>    
+
+
+    <!-- nosotros -->
+    <section id="nosotros">
+        <h2 class="mis">“Nuestra Misión es ofrecer productos de repostería elaborados con la más alta calidad de manera artesanal y casero, con un servicio especial y personalizado a cada uno de nuestros clientes”</h2><br>
+
+        <h3 class="sub"><span>Historia</span></h3>
+        <p>En el verano del 2020 Kitzia Astrid tuvo la iniciativa de hacer un postre que además de tener un buen sabor procurara cuidar la salud de sus familiares cercanos, dado que tenían una condición que no permitía comer postres por el contenido de sus ingredientes. Fue así como empezó a realizar recetas que fueron muy bien recibidas por amigos y familiares. <br> Posteriormente empezó con pequeños pedidos y se fueron sumando clientes como cafeterías locales.</p><br>
+
+        <h3 class="sub"><span>Visión</span></h3>
+        <p>Para el 2024 ser una empresa con la capacidad de cubrir la demanda de pasteles en toda la localidad, enfocándonos en ampliar nuestra línea saludable para todos nuestros clientes que desean saborear un postre delicioso con la tranquilidad de que está cuidando su salud.</p>
+    </section>
+
+
+    <footer>
+
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+
+        <ul class="social_icons">
+            <li><a href=""><i class='bx bxl-instagram'></i></a></li>
+            <li><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+            <li><a href=""><i class='bx bxl-whatsapp'></i></a></li>
+        </ul>
+
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#postres">Postres</a></li>
+            <li><a href="#contactanos">Contactanos</a></li>
+        </ul>
+
+        <p>© 2023 KichiMor postres | AnchelDev</p>
+    </footer>
+
+    
+    <script>
+    $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+
+    $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+    });
+    </script>
+
+</body>
+</html>
